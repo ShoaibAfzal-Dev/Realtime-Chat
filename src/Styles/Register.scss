@@ -1,0 +1,86 @@
+.register-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  
+    .register-left {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      h1 {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+  
+        input {
+            background-color: #FFFFFF;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: larger;
+            width: 100%;
+            &::placeholder{
+            color: #d9d9d9;
+            }
+            &:focus {
+                outline: none;
+              }
+        }
+  
+        button {
+            padding: 15px;
+            color: #FFFFFF;
+            background-color: #4CAF50;
+            font-size: large;
+            border: none;
+            border-radius:10px;
+            cursor: pointer;
+            &:hover {
+              background-color: #4caf4fa5;
+            }
+        }
+      }
+    }
+  
+    .register-right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+    background-color: rgb(168, 168, 168);
+    // button{
+    //       display: flex;
+    //       justify-content: center;
+    // }
+  }
+  
+  .avatar-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
